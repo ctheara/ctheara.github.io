@@ -1,0 +1,33 @@
+<div class="news">
+  {% if page.latest_projects != blank %}
+    {% assign projects = site.projects | sort: 'importance' %}
+    {% assign latest_projects_size = projects | size %}
+    <div
+      class="table-responsive"
+      {% if page.latest_projects.scrollable and latest_projects_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% if page.latest_projects.limit %}
+          {% assign latest_projects_limit = page.latest_projects.limit %}
+        {% else %}
+          {% assign latest_projects_limit = latest_projects_size %}
+        {% endif %}
+        {% for project in projects limit: latest_projects_limit %}
+          <tr>
+            <td>
+              <a class="news-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              {% if project.description %}
+                <br>
+                <span style="font-size: 0.9em; color: #999;">{{ project.description }}</span>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No projects yet...</p>
+  {% endif %}
+</div>
