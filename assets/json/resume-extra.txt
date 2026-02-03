@@ -1,0 +1,38 @@
+  "projects": [
+    {
+      "name": "HabitForge",
+      "summary": "Full-stack web app enabling users to track and form new habits with AI-powered coaching",
+      "highlights": [
+        "Implemented AI Habit Coach using OpenAI GPT-5-mini with real-time chat interface",
+        "Designed and deployed 15+ RESTful API endpoints using OpenAPI specifications",
+        "Built with TypeScript, React, PostgreSQL, Express, and OpenAI"
+      ],
+      "startDate": "2000-01-01",
+      "endDate": "2000-06-01",
+      "url": "https://github.com/ctheara/habit-tracker"
+    },
+    {
+      "name": "Event Notification Service",
+      "summary": "Serverless event notification system on AWS handling asynchronous event processing",
+      "highlights": [
+        "Built event-driven architecture using API Gateway, Lambda, SQS, and DynamoDB",
+        "Implemented multi-channel delivery via SES (email) and HTTP webhooks",
+        "Configured CloudWatch monitoring with dead-letter queue for fault tolerance"
+      ],
+      "startDate": "2000-06-01",
+      "endDate": "2000-12-01",
+      "url": "https://github.com/ctheara/event-notification-service-aws"
+    },
+    {
+      "name": "Movie Watchlist API",
+      "summary": "RESTful API for managing movie watchlist with analytics powered by OMDb integration",
+      "highlights": [
+        "Built 8 REST endpoints with FastAPI achieving 90%+ test coverage",
+        "Implemented analytics engine with Pandas for ratings and genre insights",
+        "Containerized with Docker for scalable deployment"
+      ],
+      "startDate": "2000-09-01",
+      "endDate": "2000-01-01",
+      "url": "https://github.com/ctheara/movies-watchlist-python"
+    }
+  ]
