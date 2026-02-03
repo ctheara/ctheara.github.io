@@ -10,7 +10,7 @@ github: https://github.com/ctheara/event-notification-service-aws
 
 A serverless event notification system built on AWS that enables publishers to submit events and subscribers to receive notifications through email or webhooks based on filtering preferences. Wanted to learn cloud architecture and serverless patterns.
 
-**Key Features:**
+**Features:**
 - Event ingestion via `REST API` with API key authentication
 - Multi-channel delivery (email via `SES`, webhooks via HTTP)
 - Asynchronous processing with `SQS` buffering
@@ -71,8 +71,8 @@ Publisher
 ## Key Features & Implementation
 
 1. **Event Ingestion** - REST API via `API Gateway` accepts events with type, severity, and metadata, triggering Lambda for validation and SQS submission.
-2. **Subscription Management** - DynamoDB stores subscriber preferences with filters for event type and severity levels.
-3. **Asynchronous Processing** - SQS buffers events for reliable async processing with Lambda polling for fault tolerance.
+2. **Subscription Management** - `DynamoDB` stores subscriber preferences with filters for event type and severity levels.
+3. **Asynchronous Processing** - `SQS` buffers events for reliable async processing with Lambda polling for fault tolerance.
 4. **Multi-Channel Delivery** - Event processor Lambda matches subscriptions and sends notifications via SES (email) or HTTP webhooks.
 5. **Error Handling & Monitoring** - Dead-letter queue captures failed messages, CloudWatch alarms trigger SNS alerts for system health monitoring.
 

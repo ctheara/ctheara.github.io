@@ -17,14 +17,12 @@ github: https://github.com/ctheara/movies-watchlist-python
     github - movies-watchlist-python
 </div> -->
 
-A personal movie watchlist application that integrates with the OMDb API to fetch movie metadata and provides analytics on your viewing habits. Wanted to learn how to create APIs and do CRUD in python.
+A personal movie watchlist application that integrates with the OMDb API to fetch movie metadata and provides analytics on your viewing habits. I wanted to learn how to create APIs and do CRUD in python.
 
-**Key Features:**
+**Features:**
 - Search movies by title using `OMDb API`
 - Add/remove movies to personal watchlist
 - Track watched vs. unwatched status
-- Analytics dashboard with ratings and genre insights
-- Comprehensive test coverage (90%+)
 
 <br>
 
@@ -72,7 +70,7 @@ The application follows a clean, layered architecture:
     - `DELETE /api/v1/movies/{imdb_id}` - Remove from watchlist
     - `GET /api/v1/analytics` - Get watchlist analytics
 2. **Data Analytics with Pandas** - Built analytics and computes insights from watchlist data
-3. **Database Design** - PostgreSQL schema with SQLAlchemy ORM managing movie metadata and watch status.
+3. **Database Design** - `PostgreSQL` schema with SQLAlchemy ORM managing movie metadata and watch status.
 4. **External API Integration** with OMDb client to get movie data.
 5. **Comprehensive Testing** achieving 90%+ code coverage with `pytest` including CRUD operations, API endpoints, and edge cases.
 
