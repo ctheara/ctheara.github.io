@@ -402,7 +402,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-event-notification-service-aws",
+          section: "News",},{id: "projects-ai-agent-tools",
+          title: 'AI Agent Tools',
+          description: "Multi-tool AI agent with web search and research capabilities",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ai-agent-tools/";
+            },},{id: "projects-event-notification-service-aws",
           title: 'Event Notification Service - AWS',
           description: "Serverless event-driven system on AWS",
           section: "Projects",handler: () => {
