@@ -412,6 +412,11 @@ ninja.data = [{
           description: "Serverless event-driven system on AWS",
           section: "Projects",handler: () => {
               window.location.href = "/projects/event-notification-service-aws/";
+            },},{id: "projects-habitforge",
+          title: 'HabitForge',
+          description: "Full-stack habit tracker with AI coaching",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/habitforge/";
             },},{id: "projects-movie-watchlist-api-python",
           title: 'Movie Watchlist API- Python',
           description: "Track your movies watchlist",
