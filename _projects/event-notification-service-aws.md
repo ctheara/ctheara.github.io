@@ -3,7 +3,7 @@ layout: page
 title: Event Notification Service - AWS
 description: Serverless event-driven system on AWS
 img: assets/img/projects/event-notification-cover.png
-importance: 2
+importance: 3
 category: work
 github: https://github.com/ctheara/event-notification-service-aws
 ---

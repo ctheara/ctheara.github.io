@@ -3,7 +3,7 @@ layout: page
 title: AI Agent Tools
 description: Multi-tool AI agent with web search and research capabilities
 img: assets/img/projects/ai-agent-tool-cover2.png
-importance: 3
+importance: 8
 category: work
 github: https://github.com/ctheara/ai-agent-tools
 ---

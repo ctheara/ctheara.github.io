@@ -3,7 +3,7 @@ layout: page
 title: Movie Watchlist API- Python
 description: Track your movies watchlist
 img: assets/img/projects/movies-watchlist-cover.png
-importance: 1
+importance: 5
 category: work
 github: https://github.com/ctheara/movies-watchlist-python
 ---
