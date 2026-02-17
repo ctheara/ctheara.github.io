@@ -32,9 +32,9 @@ latest_projects:
   limit: 3           # Number of projects to show (leave blank for all)
 ---
 
-Hi, I'm `Theara Chea`! I'm a software engineer at Travelers Insurance, where I build event-driven systems that scale. My work spans distributed systems, cloud architecture, and `full-stack development`—from `Kafka` pipelines processing `40,000 events/min` to `microservices` orchestrating workflows for underwriters.
+Hi, I'm `Theara Chea`! I'm a software engineer building event-driven systems that scale. I genuinely enjoy solving hard problems.
 
-I'm passionate about designing systems that are both powerful and reliable. Whether architecting data pipelines, building `APIs`, or optimizing performance, I focus on solutions that work at scale and stand the test of production traffic.
+Currently at Travelers Insurance, I build the integrations and `microservices` that power underwriter workflows, from `Kafka` pipelines processing `40,000 events/min` to cloud-native services on AWS and Kubernetes. My work spans distributed systems, cloud architecture, and `full-stack development`.
 
 **Technical expertise:** Event-driven architecture, `AWS`, `Kubernetes`, `Node.js`/`TypeScript`, distributed systems, `CI/CD`
 
