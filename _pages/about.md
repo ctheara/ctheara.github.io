@@ -6,7 +6,7 @@ subtitle: <a href='#'>Software Engineer</a>. Problem Solver.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <br>
