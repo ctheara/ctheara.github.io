@@ -34,13 +34,14 @@
       "endDate": "Present",
       "summary": "Building event-driven automation platforms processing 5M+ tasks/year for underwriting and support teams.",
       "highlights": [
-        "Architected event-driven automation platform processing 5M+ tasks/year, reducing processing times by 15%",
-        "Built high-throughput Kafka data pipeline on AWS EKS replicating 40,000 events/min with 99.9% reliability",
-        "Designed RESTful microservices using TypeScript, Node.js, and Docker enabling 3 external systems integration",
-        "Achieved 90%+ code coverage across 5 microservices using Jest and Mocha",
-        "Configured and managed 6+ Kafka topics supporting real-time event streaming for workflow progression",
+        "Developed Java and TypeScript/Node.js microservices for an event-driven automation platform processing 5M+ tasks/year, reducing processing times by 15% for 200+ business users",
+        "Built high-throughput Kafka pipeline on AWS EKS replicating 40,000 events/min with Confluent Replicator connectors, monitoring, and fault tolerance ensuring 99.9% reliability",
+        "Designed and shipped RESTful task creation microservice (TypeScript, Node.js, Docker, MongoDB) enabling 3 external systems to create and route tasks, processing 5K+ API requests/day",
+        "Automated task creation pipeline using Java, increasing systematic task creation from 0% to 92% and eliminating manual workload for operations teams",
+        "Architected full-stack Triage Knowledge Base using React, TypeScript, and MongoDB, enabling users to resolve issues 30% faster through intuitive search",
+        "Achieved 90%+ code coverage across 10 microservices using Jest and Mocha",
         "Deployed Istio service mesh to 2 production EKS clusters for improved observability and zero-downtime deployments",
-        "Mentored 2 junior engineers through code reviews and pair programming"
+        "Mentored 2 junior engineers through code reviews and pair programming"   
       ]
     },
     {
