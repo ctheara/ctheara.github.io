@@ -36,9 +36,9 @@ Hi, I'm `Theara Chea`! I'm a software engineer building event-driven systems tha
 
 Currently at Travelers Insurance, I build the integrations and `microservices` that power underwriter workflows, from `Kafka` pipelines processing `40,000 events/min` to cloud-native services on AWS and Kubernetes. My work spans distributed systems, cloud architecture, and `full-stack development`.
 
-**Technical expertise:** Event-driven architecture, `AWS`, `Kubernetes`, `Node.js`/`TypeScript`, distributed systems, `CI/CD`
+**Technical expertise:** Event-driven architecture, `AWS`, `Kubernetes`, `Node.js`/`TypeScript`, `Python`, distributed systems, `CI/CD`
 
-**Current focus:** Deepening my knowledge of AI, algorithms, system design patterns, and cloud-native architectures. M.S. in Computer Science from `UIUC`.
+**Current focus:** Deepening my knowledge of AI, algorithms, system design patterns, and cloud-native architectures.
 
 Explore my [projects](/projects/), check out my [CV](/cv/), or connect on [LinkedIn](https://www.linkedin.com/in/chea/) and [GitHub](https://github.com/ctheara).
 
